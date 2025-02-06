@@ -2303,11 +2303,12 @@ form label {
   z-index: 100;
 }
 #audio-container {
-  width: 40px;
-  padding-right: 3%;
+  width: 20px;
+  /* padding-right: 10%; */
   /* text-align: right; */
   position: fixed;
-  bottom: 35px;
+  margin-left: 10px;
+  bottom: 70px;
   z-index: 1000;
   border-radius: 15px;
   background: #ffffff;
@@ -2315,8 +2316,10 @@ form label {
 }
 
 #audio-icon {
-  width: 25px; /* Ukuran ikon */
+  width: 20px; /* Ukuran ikon */
   cursor: pointer;
+  align-items: center;
+  text-align: center;
   /* border: solid 3px; */
 }
 
